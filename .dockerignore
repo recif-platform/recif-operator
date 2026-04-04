@@ -1,0 +1,10 @@
+bin/
+test/
+hack/
+config/
+*.md
+Makefile
+PROJECT
+Dockerfile.operator
+.git
+.gitignore
