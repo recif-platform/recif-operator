@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://recif-platform.github.io/logo.png" alt="Recif Operator" width="80" />
+  <img src="https://recif-platform.github.io/logo.png?v=2" alt="Recif Operator" width="80" />
 </p>
 
 <h1 align="center">Recif Operator</h1>
