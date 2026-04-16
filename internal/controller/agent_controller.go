@@ -611,14 +611,10 @@ func kbAsyncpgDSN(raw string) string {
 }
 
 // deploymentName returns the Deployment name for an agent.
-// When a version is set, the name includes it: "spark-v0-1-0".
-// When no version, just the agent name: "spark".
+// Uses the agent name directly (no version suffix) so that MLflow tracing,
+// canary deployments, and service routing all use a consistent name.
 func deploymentName(agent *agentsv1.Agent) string {
-	if agent.Spec.Version == "" {
-		return agent.Name
-	}
-	sanitized := strings.ReplaceAll(agent.Spec.Version, ".", "-")
-	return agent.Name + "-v" + sanitized
+	return agent.Name
 }
 
 func labels(agent *agentsv1.Agent) map[string]string {
