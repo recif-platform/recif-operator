@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/recif-platform/recif-operator/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache_2.0-blue?style=flat-square" alt="License" /></a>
   <a href="https://github.com/recif-platform/recif-operator/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/recif-platform/recif-operator/ci.yml?style=flat-square&label=CI" alt="CI" /></a>
-  <img src="https://img.shields.io/badge/version-v0.2.0-green?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/version-v0.3.0-green?style=flat-square" alt="Version" />
   <a href="https://discord.gg/P279TT4ZCp"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
